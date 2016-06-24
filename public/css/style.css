@@ -1,0 +1,150 @@
+.home-list {
+  list-style-type: none;
+}
+
+.home-list li img{
+  width: 70%;
+  box-shadow: 5px 5px 5px #888;
+}
+
+.user-thumb-link{
+  color:#3f8659;
+}
+
+.user-thumb-link:hover {
+  color: #4fe64e;
+}
+
+.user-thumb-list {
+
+  box-shadow: 5px 5px 5px #888;
+
+  margin: 10px 4%;
+  /*background-color: #bdf;*/
+
+}
+
+.user-thumb {
+  text-align: center;
+  display: inline-block;
+}
+
+.user-thumb img {
+  max-width: 147px;
+}
+
+.user-thumb ul {
+
+  list-style-type: none;
+
+}
+
+.user-thumb ul li {
+  float: left;
+  margin: 3px;
+  padding: 2px;
+
+  background: #DFE;
+  border: 1px solid #ADC;
+  border-radius: 12%;
+
+  color:#3A9;
+
+  text-align: center;
+}
+
+.portfolio-header {
+
+  background-color: #8B7;
+
+}
+
+.portfolio-img{
+  width: 80%;
+  padding: 20px;
+}
+
+.portfolio-info {
+    padding: 20px;
+}
+
+.portfolio-info a {
+  color:#1d540b;
+
+  font-weight: bold;
+}
+
+.portfolio-info ul {
+  list-style-type: none;
+}
+
+.portfolio-info ul li {
+  float: left;
+  margin: 5px;
+  padding: 2px 8px;
+
+  background-color: #c2ff96;
+  color: #238e02;
+  border-radius: 20%;
+}
+
+.btn a {
+  color: white;
+}
+
+/*.h-banner {
+  background-color: yellow;
+  height: 200px;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
+
+.h-banner button {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 80%;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+
+}
+
+.jobs {
+  text-align: center;
+}
+
+footer{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.info-banner {
+  height: 400px;
+  background-color: red;
+}
+
+.profile {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+.form {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 26px;
+}*/

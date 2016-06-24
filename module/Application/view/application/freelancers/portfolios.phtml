@@ -1,0 +1,50 @@
+<br>
+<div class="container">
+
+  <div class="row portfolio-header">
+
+      <div class="col-md-5">
+        <img class="portfolio-img" src="/full/users/users_img (<?php echo $this->id ?>).png" alt="" />
+      </div>
+
+      <div class="col-md-7 portfolio-info">
+
+        <h2><?php echo $this->name; ?></h2>
+
+        <hr>
+
+        <h3>Contact</h3>
+        <a href="mailto:<?php echo $this->email; ?>"><?php echo $this->email; ?></a>
+
+        <hr>
+
+        <h3>Skills</h3>
+        <br>
+        <?php echo $this->skills?>
+
+      </div>
+      <!-- /portfolio-info -->
+  </div>
+  <!-- /row -->
+  <hr>
+
+  <div class="row">
+
+  </div>
+
+    <h3>Desciption</h3>
+    <?php
+
+      $dir = $_SERVER['DOCUMENT_ROOT']."\description\users ($this->id).txt";
+
+      $fp=file($dir);
+
+      echo $fp[0];
+
+     ?>
+  <!-- /row -->
+  <hr>
+
+
+
+  <button type="button" class="btn btn-success"><a href="/freelancers">Back to list</a></button>

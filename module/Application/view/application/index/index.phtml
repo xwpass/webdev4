@@ -1,0 +1,40 @@
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Hire expert freelancers for your online job</h1>
+                <h2>Millions of small businesses use Freelancer to turn their ideas into reality</h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+      <!-- <div class="row text-center">
+        <h2 >Jobs</h2>
+        <br>
+
+
+
+      </div> -->
+
+      <hr>
+
+      <div class="row text-center">
+        <h2 >Freelancers</h2>
+        <br>
+        <?php
+          echo "<ul class='home-list'>";
+          foreach ($this->id as $id) {
+            echo "<li class='col-sm-2'><a href=\"/portfolios?id=$id\"><img src=\"/thumbs/user-thumbs/users_img ($id).png\"/></a></li>";
+          }
+          echo "</ul>";
+         ?>
+      </div>
+
+      <hr>
+
+    <!-- </div> -->
+
+        <!-- Footer -->

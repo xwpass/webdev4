@@ -1,0 +1,43 @@
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Freelancers
+                <!-- <small>Secondary Text</small> -->
+            </h1>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Project One -->
+    <div class="row">
+    <?php
+      foreach ($this->users as $user) {
+        echo $user;
+      }
+    ?>
+  </div>
+    <!-- /.row -->
+
+    <hr>
+
+
+
+
+<!-- /.container -->
+<!-- <script type="text/javascript">
+
+  $.ajax({
+    url:"/freelancers/response",
+    type:"POST",
+    data:{"test":"test"},
+    success: function(resp){
+      console.log("get!");
+      console.log(resp);
+      $("#sub_header").append(resp.test);
+    },
+  });
+
+</script> -->
